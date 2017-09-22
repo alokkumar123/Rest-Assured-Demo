@@ -19,6 +19,7 @@
 			<artifactId>json-path</artifactId>
 			<version>3.0.3</version>
 		</dependency>
+		
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>

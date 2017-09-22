@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="API Test Suit">
+  <test name="ApiTest">
+    <groups>
+      <run>
+        <include name="demo"/>
+      </run>
+    </groups>
+    <packages>
+      <package name="com.alok.restAssuredFramework"/>
+      <package name="com.alok.tests"/>
+    </packages>
+    <classes>
+      <class name="com.alok.restAssuredFramework.RestAssuredConfiguration"/>
+      <class name="com.alok.tests.EmployeeTest"/>
+    </classes>
+  </test> <!-- ApiTest -->
+</suite> <!-- API Test Suit -->
+            

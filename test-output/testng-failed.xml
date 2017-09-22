@@ -5,7 +5,8 @@
     <classes>
       <class name="com.alok.tests.EmployeeTest">
         <methods>
-          <include name="validateEmploye"/>
+          <include name="configure"/>
+          <include name="validate"/>
         </methods>
       </class> <!-- com.alok.tests.EmployeeTest -->
     </classes>
